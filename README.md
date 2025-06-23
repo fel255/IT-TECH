@@ -32,7 +32,7 @@ DEPLOY SIMPLY TECH BOT
 ### Get Pairing Code SESSION ID
 
 
-[![TECH SESSION](https://img.shields.io/badge/RAHEEM%20-XMD%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://raheem-xmd-2-pair.onrender.com)
+[![FELICIAN SESSION](https://img.shields.io/badge/FELICIAN%20-XMD%20SESSION-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://skiddbmx-pair-site.onrender.com)
 ---
 
  Fork This Repository
