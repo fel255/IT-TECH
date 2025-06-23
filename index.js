@@ -56,7 +56,7 @@ async function downloadSessionData() {
         return false;
     }
 
-    const sessdata = config.SESSION_ID.split("KAISEN~")[1];
+    const sessdata = config.SESSION_ID.split("SKIDDY~")[1];
 
     if (!sessdata || !sessdata.includes("#")) {
         console.error('❌ Invalid SESSION_ID format! It must contain both file ID and decryption key.');
@@ -95,7 +95,7 @@ async function start() {
             version,
             logger: pino({ level: 'silent' }),
             printQRInTerminal: useQR,
-            browser: ["RAHEEM-XMD-2", "safari", "3.3"],
+            browser: ["SKIDDYBMX🚨", "safari", "3.3"],
             auth: state,
             getMessage: async (key) => {
                 if (store) {
@@ -180,7 +180,7 @@ async function start() {
                     await Matrix.readMessages([mek.key]);
                     
                     if (config.AUTO_STATUS_REPLY) {
-                        const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By RAHEEM-XMD-2';
+                        const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By SKIDDYBMX';
                         await Matrix.sendMessage(fromJid, { text: customMessage }, { quoted: mek });
                     }
                 }
