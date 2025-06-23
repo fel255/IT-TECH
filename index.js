@@ -89,7 +89,7 @@ async function start() {
     try {
         const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
         const { version, isLatest } = await fetchLatestBaileysVersion();
-        console.log(`🤖 RAHEEM-XMD-2 using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        console.log(`📱SKIDDBMX using WA v${version.join('.')}, isLatest: ${isLatest}`);
         
         const Matrix = makeWASocket({
             version,
@@ -114,25 +114,25 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("Connected Successfully RAHEEM-XMD-2♻️"));
+                    console.log(chalk.green("Connected Successfully TECH BOT♻️"));
                     Matrix.sendMessage(Matrix.user.id, { 
-                        image: { url: "https://files.catbox.moe/vgb4cw.jpg" }, 
+                        image: { url: "https://files.catbox.moe/bt9xxe.jpg" }, 
                         caption: `╓─────────────────╖
-│WELCOME TO RAHEEM-XMD-2 
+│WELCOME TO TECH BOT
 ╙─────────────────╜
 *⚠️ Hello there User! 🤖*
 
 ════════════════════
-♻️ CHANNEL : https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r
+♻️ CHANNEL:
 
 ═══════════════════
-*🪀 Your Prefix:* = *${prefix}*
+*📱 Your Prefix:. = *${prefix}*
 ═══════════════════
 
-💬 REPO : https://github.com/Raheem-cm/RAHEEM-XMD-2 
+💬 REPO : https://github.com/fel255/IT-TECH 
 
 ╚══════════════════╝
-       © DEV RAHEE-CM`
+       © DEV FELICIAN`
                     });
                     initialConnection = false;
                 } else {
