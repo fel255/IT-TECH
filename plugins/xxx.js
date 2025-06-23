@@ -6,14 +6,14 @@ cmd({
     desc: "Display a list of NSFW options",
     category: "fun",
     use: '.nsfw',
-    react: "🔥", // Réaction ajoutée
+    react: "🔞", // Réaction ajoutée
     filename: __filename
 },
 async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         // Liste des options NSFW
         const nsfwList = `
-   *❦ \`RAHEEM-XMD-2 SEXY HUB.🎀🍭\`*
+   *❦ \`SKIDDYBMX SEXY HUB.🎀🍭\`*
 
 1️⃣ *EJACULATION💦*
 2️⃣ *PENIS🍆*
@@ -33,7 +33,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
 *By Continueing You Agree that you are 18+ .*`;
 
         // URL image for NSFW
-        const imageUrl = 'https://files.catbox.moe/vgb4cw.jpg';
+        const imageUrl = 'https://files.catbox.moe/jywdqk.jpg';
 
         // Envoi de la liste avec l'image et la légende
         await conn.sendMessage(from, {
@@ -370,7 +370,7 @@ async (conn, mek, m, { from, l, quoted, body, isCmd, command, args, q, isGroup, 
             // Envoi de l'image dans le chat
             await conn.sendMessage(from, {
                 image: { url: imageUrl },
-                caption: 'Here is your kiss NSFW image 🔞💋.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ RAHEEM-XMD-2 😋💋🔞.'
+                caption: 'Here is your kiss NSFW image 🔞💋.\n> © Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ SKIDDBMX😋💋🔞.'
             }, { quoted: mek });
         } else {
             reply('❌ Unable to fetch image. Please try again later.');
