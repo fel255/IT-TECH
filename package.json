@@ -1,16 +1,16 @@
 {
-  "name": "RAHEEM-XMD-2",
+  "name": "SKIDDBMX",
   "version": "10.8.1",
-  "description": "RAHEEM-CM",
+  "description": "TECH",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name  Raheem-cm",
-    "stop": "pm2 stop  RAHEEM-XMD-2",
-    "restart": "pm2 restart  RAHEEM-XMD-2"
+    "start": "pm2 start index.js --deep-monitoring --attach --name  skiddybmx",
+    "stop": "pm2 stop  SKIDDBMX",
+    "restart": "pm2 restart  TECH BOT"
   },
-  "keywords": ["RAHEEM-CM", "whatsapp-bot", "whatsapp md bot"],
-  "author": " RAHEEM-XMD-2",
+  "keywords": ["SKIDDBMX", "whatsapp-bot", "whatsapp md bot"],
+  "author": " SKIDDBMX",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
