@@ -1,6 +1,6 @@
-name: RAHEEM-XMD-2
+name: SKIDDBMX
 services:
-  - name: RAHEEM-XMD-2
+  - name: SKIDDBMX
     type: web
     ports:
       - 5000
