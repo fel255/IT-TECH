@@ -11,7 +11,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
      await process.exit()
     } catch (error) {
       console.error(error);
-      await m.React("❌");
+      await m.React("🚫");
       return m.reply(`An error occurred while restarting the bot: ${error.message}`);
     }
   }
