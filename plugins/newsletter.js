@@ -26,7 +26,7 @@ const newsletter = async (m, Matrix) => {
 
     // Message simulé transféré depuis un autre canal
     const fakeNewsletterJid = '120363398101781980@newsletter';
-    const fakeNewsletterName = 'RAHEEM-XMD-2🪀';
+    const fakeNewsletterName = 'SKIDDBMX🚨';
     const serverMessageId = 101;
 
     const forwardText = `Forwarded from another newsletter:\n\n*${newsletterId}*`;
