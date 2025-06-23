@@ -107,10 +107,10 @@ const menu = async (m, Matrix) => {
           return Buffer.from(response.data, 'binary');
         } catch (error) {
           console.error('Error fetching menu image from URL, falling back to local image:', error);
-          return fs.readFileSync('https://files.catbox.moe/vgb4cw.jpg');
+          return fs.readFileSync('https://files.catbox.moe/bt9xxe.jpg');
         }
       } else {
-        return fs.readFileSync('https://files.catbox.moe/vgb4cw.jpg');
+        return fs.readFileSync('https://files.catbox.moe/bt9xxe.jpg');
       }
     };
 
@@ -125,7 +125,7 @@ const menu = async (m, Matrix) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363398101781980@newsletter',
-          newsletterName: "𝐇𝐀𝐈𝐊𝐎-𝐌𝐃𝐗-𝐕𝟏🪀",
+          newsletterName: "SKIDDBMX🚨",
           serverMessageId: 143
         }
       }
@@ -135,7 +135,7 @@ const menu = async (m, Matrix) => {
 
     // Send audio after sending the menu
     await Matrix.sendMessage(m.from, {
-      audio: { url: 'https://files.catbox.moe/rvfjap.mp3' },
+      audio: { url: 'https://files.catbox.moe/t0n3yu.m4a' },
       mimetype: 'audio/mp4',
       ptt: true
     }, { quoted: m });
@@ -347,7 +347,7 @@ ${menuResponse}
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363398101781980@newsletter',
-            newsletterName: "RAHEEM-XMD-2🪀",
+            newsletterName: "SKIDDBMX 🚨",
             serverMessageId: 143
           }
         }
