@@ -20,7 +20,7 @@ cmd({
     try {
         let code = args[0];
         if (!code) {
-            return reply("❌ Please provide a country code. Example: `.check 254`");
+            return reply("🚫 Please provide a country code. Example: `.check 254`");
         }
 
         // Remove any '+' signs from the code
@@ -41,11 +41,11 @@ cmd({
                 .join("\n");
             reply(`✅ *Country Code*: ${code}\n🌍 *Countries*:\n${countryNames}`);
         } else {
-            reply(`❌ No country found for the code ${code}.`);
+            reply(`🚫 No country found for the code ${code}.`);
         }
     } catch (error) {
         console.error(error);
-        reply("❌ An error occurred while checking the country code.");
+        reply("🚨 An error occurred while checking the country code.");
     }
 });
 
