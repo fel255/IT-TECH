@@ -31,8 +31,7 @@ const ping = async (m, Matrix) => {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
-        forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363398101781980@newsletter',
+        forwardedNewsletterMessageInfo:
           newsletterName: "SKIDDBMX 📥",
           serverMessageId: 143
         }
