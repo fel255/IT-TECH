@@ -79,3 +79,9 @@ DEPLOY SIMPLY TECH BOT
 
 [![TypingSVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=50&pause=1000&color=9CE6F7FF&center=true&vCenter=true&width=900&height=130&lines=『+🚫owner+number-+255619712382📛+』)](https://git.io/typing-svg)
 
+      // Send the audio file with context info
+      await 
+{
+          audio: { url: "https://files.catbox.moe/kdx979.mp3" },
+          mimetype: "audio/mp4",
+          ptt: truem.
