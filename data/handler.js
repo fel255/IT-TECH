@@ -75,12 +75,12 @@ const Handler = async (chatUpdate, sock, logger) => {
                         const loadPlugins = pluginModule.default;
                         await loadPlugins(m, sock);
                     } catch (err) {
-                        console.error(`❌ Failed to load plugin: ${pluginPath}`, err);
+                        console.error(`👄 Failed to load plugin: ${pluginPath}`, err);
                     }
                 }
             }
         } catch (err) {
-            console.error(`❌ Plugin folder not found: ${pluginDir}`, err);
+            console.error(`🚫 Plugin folder not found: ${pluginDir}`, err);
         }
 
     } catch (e) {
