@@ -1,5 +1,5 @@
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Anton&size=80&pause=1000&color=E779F7FF&center=true&vCenter=true&width=1000&height=200&lines=TECH;VERSION+2025;BY+DEV+SKIDDBMX" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Anton&size=80&pause=1000&color=E779F7FF&center=true&vCenter=true&width=1000&height=200&lines=F;VERSION+2025;BY+DEV+SKIDDBMX" alt="Typing SVG" />
 </a>
 
 ---
@@ -79,9 +79,8 @@ DEPLOY SIMPLY TECH BOT
 
 [![TypingSVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&size=50&pause=1000&color=9CE6F7FF&center=true&vCenter=true&width=900&height=130&lines=『+🚫owner+number-+255619712382📛+』)](https://git.io/typing-svg)
 
-      // Send the audio file with context info
-      await 
-{
-          audio: { url: "https://files.catbox.moe/kdx979.mp3" },
-          mimetype: "audio/mp4",
-          ptt: truem.
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=The+ENJOYMENT+SESSION+BMX+jump+quickly" alt="Typing SVG" /></a>
+<video autoplay muted loop id="bg-video">
+        <source src="https://files.catbox.moe/thfuux.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+</video>
