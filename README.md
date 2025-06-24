@@ -81,6 +81,8 @@ DEPLOY SIMPLY TECH BOT
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=The+ENJOYMENT+SESSION+BMX+jump+quickly" alt="Typing SVG" /></a>
 <video autoplay muted loop id="bg-video">
+
+<video autoplay muted loop id="bg-video">
         <source src="https://files.catbox.moe/thfuux.mp4" type="video/mp4" />
-        Your browser does not support HTML5 video.
+        Your browser does not support HTML5 video.        
 </video>
