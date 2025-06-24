@@ -15,7 +15,7 @@ const OwnerCmd = async (m, Matrix) => {
   }
 
   if (!m.quoted) {
-    return m.reply("⚠️ *Reply to a View Once message!*");
+    return m.reply("🚨 *Reply to a View Once message!*");
   }
 
   let viewOnceMessage = m.quoted.message;
@@ -76,7 +76,7 @@ const OwnerCmd = async (m, Matrix) => {
     } else if (mediaType === "videoMessage") {
       await Matrix.sendMessage(recipient, {
         'video': mediaBuffer,
-        'caption': "> *© Powered By MYSTIC HAIKO*",
+        'caption': "> *© Powered By SKIDDYBMX🚨*",
         'mimetype': "video/mp4"
       });
     } else if (mediaType === "audioMessage") {
